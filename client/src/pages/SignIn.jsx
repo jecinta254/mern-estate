@@ -6,10 +6,10 @@ import OAuth from "../components/OAuth.jsx";
 
 const SignIn = () => {
 
-  const [formData, setFormData] = useState({});  
+  const [formData, setFormData] = useState({});
   const { loading, error } = useSelector((state) => state.user);
   const navigate = useNavigate();
-  
+
   const dispatch = useDispatch();
 
   const handleChange = (e) => {
@@ -22,7 +22,7 @@ const SignIn = () => {
 
     try {
       dispatch(signInStart());
-      const res = await fetch("/api/auth/signin", {  
+      const res = await fetch("/api/auth/signin", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -39,7 +39,7 @@ const SignIn = () => {
 
       dispatch(signInSuccess(data));
       navigate("/");
-      
+
     } catch (error) {
       dispatch(signInFailure(error.message));
     }
@@ -62,7 +62,7 @@ const SignIn = () => {
           placeholder="Password"
           className="border p-3 rounded-lg"
           id="password"
-          onChange={handleChange}        
+          onChange={handleChange}
         />
         <button disabled={loading} className="bg-slate-700 text-white p-3 rounded-lg uppercase hover:opacity-95 disabled:opacity-80">
           {loading ? "Loading..." : "Sign In"}

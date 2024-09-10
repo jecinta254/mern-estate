@@ -35,7 +35,7 @@ const Header = () => {
       <div className="flex justify-between items-center max-w-6xl mx-auto p-3">
         <Link to="/">
           <h1 className="font-bold text-sm sm:text-xl flex flex-wrap">
-            <span className="text-slate-300">JAVVA</span>
+            <span className="text-slate-300">Javva</span>
             <span className="text-slate-800">Constructions</span>
           </h1>
         </Link>
@@ -65,7 +65,7 @@ const Header = () => {
             </li>
           </Link>
           <Link to="/contact-us">
-            <li className="hidden sm:inline bg-slate-600 p-3 rounded-lg text-slate-200 hover:underline">
+            <li className="hidden sm:inline bg-slate-900 p-3 rounded-lg text-slate-200 hover:underline">
               contact us
             </li>
           </Link>

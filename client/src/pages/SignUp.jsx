@@ -8,7 +8,7 @@ const SignUp = () => {
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
-  const [formData, setFormData] = useState({});  
+  const [formData, setFormData] = useState({});
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.id]: e.target.value });
@@ -20,7 +20,7 @@ const SignUp = () => {
 
     try {
       setLoading(true);
-      const res = await fetch("/api/auth/signup", {  
+      const res = await fetch("/api/auth/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -5,7 +5,7 @@ import { Navigation } from 'swiper/modules';
 import SwiperCore from 'swiper';
 import 'swiper/css/bundle';
 import ListingItem from '../components/ListingItem';
-import ContactPage from '../components/ContactPage.jsx'
+
 
 export default function Home() {
   const [offerListings, setOfferListings] = useState([]);
@@ -129,7 +129,7 @@ export default function Home() {
           </div>
         )}
       </div>
-      <ContactPage/>
+
     </div>
   );
 }
