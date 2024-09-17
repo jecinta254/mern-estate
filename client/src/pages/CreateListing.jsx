@@ -54,11 +54,11 @@ const CreateListing = () => {
           setUploading(false);
         })
         .catch((err) => {
-          setImageUploadError("Image upload failed. (2 mb max per image)");
+          setImageUploadError("Image upload must be 2 mb (max))");
           setUploading(false);
         });
     } else {
-      setImageUploadError("You can only upload 6 images per listing");
+      setImageUploadError("You can only upload 6 images here");
       setUploading(false);
     }
   };

@@ -242,7 +242,7 @@ const Profile = () => {
           {loading ? "Loading..." : "Update"}
         </button>
         <Link
-          className="bg-green-700 text-white p-3 rounded-lg uppercase text-center hover:opacity-95"
+          className="bg-blue-700 text-white p-3 rounded-lg uppercase text-center hover:opacity-95"
           to={"/create-listing"}
         >
           Create Listing
@@ -251,21 +251,21 @@ const Profile = () => {
       <div className="flex justify-between mt-5">
         <span
           onClick={handleDeleteUser}
-          className="text-red-700 cursor-pointer"
+          className="text-red-700 cursor-pointer bg-blue-400 rounded-lg text-center hover:opacity-95 p-3"
         >
           Delete account
         </span>
-        <span onClick={handleSignOut} className="text-red-700 cursor-pointer">
+        <span onClick={handleSignOut} className="text-red-700 cursor-pointer  bg-blue-400 rounded-lg text-center hover:opacity-95 p-3">
           Sign out
         </span>
       </div>
 
       <p className="text-red-700 mt-5">{error ? error : ""}</p>
-      <p className="text-green-700 mt-5">
+      <p className="text-blue-700 mt-5">
         {updateSuccess ? "Profile updated successfully!" : ""}
       </p>
 
-      <button onClick={handleShowListings} className="text-green-700 w-full">
+      <button onClick={handleShowListings} className="text-blue-700 w-full">
         Show Listings
       </button>
       <p className="text-red-700 mt-5">{showListingsError ? "Error showing listings" : ""}</p>
@@ -281,7 +281,7 @@ const Profile = () => {
               <Link to ={`/listing/${listing._id}`}>
                 <img src={listing.imageUrls[0]}
                 alt="listing cover"
-                className="h-16 w-16 object-contain"  />                
+                className="h-16 w-16 object-contain"  />
               </Link>
               <Link
                 className='text-slate-700 font-semibold  hover:underline truncate flex-1'
@@ -298,7 +298,7 @@ const Profile = () => {
                   Delete
                 </button>
                 <Link to={`/update-listing/${listing._id}`}>
-                  <button className='text-green-700 uppercase'>Edit</button>
+                  <button className='text-blue-700 uppercase'>Edit</button>
                 </Link>
               </div>
           
