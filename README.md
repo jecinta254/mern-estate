@@ -1,4 +1,5 @@
 MERN Estate
+
 MERN Estate is a full-featured real estate web application built using the MERN stack (MongoDB, Express.js, React, Node.js). The app allows users to view, list, and manage properties, with a focus on user-friendly design and seamless interaction between the frontend and backend.
 
 Features
@@ -8,6 +9,7 @@ Add and Manage Properties: Authorized users can add new property listings, edit,
 Responsive Design: Fully responsive layout, accessible on desktop and mobile devices.
 Search and Filter Functionality: Find properties by specific criteria like location, price, or type.
 Database Integration: Property information stored in MongoDB for fast, reliable access.
+
 Technology Stack
 Frontend: React.js, HTML5, CSS3
 Backend: Node.js, Express.js
