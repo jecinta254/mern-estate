@@ -37,13 +37,12 @@ const slideBackward = ()=>{
                   <div className="user-info">
                     <img src={user_1} alt="" />
                     <div>
-                      <h3>Sophia Bennett</h3>
+                      <h3>Sarah Thompson, Homeowner</h3>
                       <span></span>
                     </div>
                   </div>
                   <p>
-                  We hired Javva Constructions for a complete renovation of our home, including the kitchen, bathrooms, and living spaces.
-                  </p>
+                  Listing my property for rent on PrimeReal estate was so easy! The process was straightforward, and within a week, I had multiple interested tenants. The platform's interface made everything so simple, from uploading pictures to responding to inquiries.</p>
                 </div>
               </li>
               <li>
@@ -51,12 +50,12 @@ const slideBackward = ()=>{
                   <div className="user-info">
                     <img src={user_2} alt="" />
                     <div>
-                      <h3>Ethan Harris</h3>
+                      <h3>John Marshall, Property Investor</h3>
                       <span></span>
                     </div>
                   </div>
                   <p>
-                  The quality of work was exceptional, with attention to every detail. The materials used were top-notch, and the finishes exceeded our expectations.
+                  I’ve used several real estate websites in the past, but none have been as user-friendly as PrimeReal estate. The ability to manage my listings directly and communicate with potential buyers is a huge advantage. I sold two properties in just a few weeks!
                   </p>
                 </div>
               </li>
@@ -65,12 +64,12 @@ const slideBackward = ()=>{
                   <div className="user-info">
                     <img src={user_3} alt="" />
                     <div>
-                      <h3>Olivia Reed</h3>
+                      <h3>Emily Rodriguez, First-Time Buyer </h3>
                       <span></span>
                     </div>
                   </div>
                   <p>
-                  The team was always punctual, maintained a clean worksite, and kept us informed throughout the project.
+                  I was overwhelmed by the idea of searching for my first home, but PrimeReal estate made the process smooth and stress-free. The detailed listings and easy-to-use filters helped me find exactly what I was looking for. I’m so happy with my new home!
                   </p>
                 </div>
               </li>
@@ -79,12 +78,12 @@ const slideBackward = ()=>{
                   <div className="user-info">
                     <img src={user_4} alt="" />
                     <div>
-                      <h3>Liam Cooper</h3>
+                      <h3>Michael Lee, Landlord</h3>
                       <span></span>
                     </div>
                   </div>
                   <p>
-                  Despite a few weather-related delays, the project was completed on time and within the agreed schedule.
+                  I appreciate how secure and reliable PrimeReal estate is. I felt comfortable listing my rental properties knowing that every user is verified. I found a great tenant within days of posting my listing. Highly recommend it to any landlord!
                   </p>
                 </div>
               </li>

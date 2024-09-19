@@ -41,7 +41,7 @@ const ContactPage = () => {
             <h3>Send us a message <img src={msg_icon} alt="" /></h3>
             <p>Feel free to reach out through contactform or find our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional services to our school community.</p>
             <ul>
-                <li> <img src={mail_icon} alt="" />JavvaConstructions@gmail.com</li>
+                <li> <img src={mail_icon} alt="" />PrimeRealEstate@gmail.com</li>
                 <li> <img src={phone_icon} alt="" />+254758942015</li>
                 <li><img src={location_icon} alt="" /> Nairobi, Kenya</li>
             </ul>
@@ -63,9 +63,7 @@ const ContactPage = () => {
             <span>{result}</span>
         </div>
     </div>
-    <div>
-      <h1 className='text-3xl mb-4 text-blue-800' >Follow us on all our social media platforms</h1>
-    </div>
+
     </div>
   )
 }

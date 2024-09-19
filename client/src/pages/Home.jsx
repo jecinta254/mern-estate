@@ -51,12 +51,12 @@ export default function Home() {
       {/* top */}
       <div className='flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto'>
         <h1 className='text-blue-700 font-bold text-3xl lg:text-6xl'>
-          From the best <span className='text-blue-300'>constructors</span>
+          Welcome to the best <span className='text-blue-300'>Realtors</span>
           <br />
           in Kenya
         </h1>
         <div className='text-gray-600 text-xs sm:text-sm'>
-          JAVVA constructons is the best company to invest in for your next perfect construction. <br />For the best result and quality services. For more insites, check through our website.
+        PrimeReal estate is the best company to post your Real estate business, <br />For the best result and quality services. For more insites, check through our website.
           <br />
           We have a wide range of projects to choose from.
         </div>
@@ -64,7 +64,7 @@ export default function Home() {
           to={'/search'}
           className='text-xs sm:text-sm text-blue-800 font-bold hover:underline'
         >
-          <button className='bg-blue-700 text-white p-3 rounded-lg uppercase hover:opacity-95'> Get Started ....</button>
+          <button className='bg-blue-700 text-white p-3 rounded-lg uppercase hover:opacity-95'> Click Here for more ....</button>
         </Link>
       </div>
 
@@ -105,8 +105,8 @@ export default function Home() {
         {rentListings && rentListings.length > 0 && (
           <div className=''>
             <div className='my-3'>
-              <h2 className='text-2xl font-semibold text-slate-600'>Recent places for rent</h2>
-              <Link className='text-sm text-blue-800 hover:underline' to={'/search?type=rent'}>Show more places for rent</Link>
+              <h2 className='text-2xl font-semibold text-slate-600'>Recent places to get an AirBnB</h2>
+              <Link className='text-sm text-blue-800 hover:underline' to={'/search?type=rent'}>Show more places for AirBnBs</Link>
             </div>
             <div className='flex flex-wrap gap-4'>
               {rentListings.map((listing) => (

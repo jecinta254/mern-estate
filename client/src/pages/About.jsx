@@ -8,9 +8,12 @@ export default function About() {
   return (
     <div className='py-20 px-4 max-w-6xl mx-auto'>
        <div>
-      <h1 className='text-3xl font-bold mb-4 text-blue-800'>About Javva Constructions</h1>
+      <h1 className='text-3xl font-bold mb-4 text-blue-800'>About PrimeReal Estate</h1>
       <h2 className='text-3xl mb-4 text-blue-800'>Company Overview and Services Offered</h2>
-      <p className='mb-4 text-slate-500'>At Javva Constructions, our journey began with a vision to create spaces that inspire and serve the needs of our clients. Established in 2024, we have grown into a leading construction firm known for our unwavering commitment to quality and customer satisfaction. Our mission is to deliver exceptional construction services that stand the test of time, reflecting our values of integrity, innovation, and excellence.</p>
+      <p className='mb-4 text-slate-500'>For Sellers & Renters: Post your property with ease and reach thousands of potential buyers and renters. Showcase your home with detailed descriptions, high-quality images, and property features.
+For Buyers: Browse through a wide variety of properties, tailored to your needs. Use our advanced search filters to find homes based on price, location, size, and more.
+Secure & Reliable: With built-in authentication, we ensure all users are verified to create a secure environment for real estate transactions.
+</p>
         </div>
       <div>
         <Programs/>
@@ -29,8 +32,9 @@ export default function About() {
         <Testimonals/>
       </div>
       </div>
-      <h2 className='text-3xl mb-4 text-blue-800'> Call to Action</h2>
-      <p className='mb-4 text-slate-700'>Ready to bring your vision to life? Contact Javva Constructions today to learn more about our services, request a consultation, or discuss how we can partner on your next project. Let’s build something great together.</p>
+      <h2 className='text-3xl mb-4 text-blue-800'> Our Commitment</h2>
+      <p className='mb-4 text-slate-700'>We are committed to transparency, security, and a seamless experience for all our users. We continuously improve our platform to meet your real estate needs and ensure a simple and stress-free journey.
+</p>
     </div>
   )
 }
