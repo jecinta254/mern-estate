@@ -8,7 +8,7 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    // Remove this line if present
-    // require('@tailwindcss/line-clamp'),
+    require('@tailwindcss/line-clamp'),
+    // ...
   ],
 }
