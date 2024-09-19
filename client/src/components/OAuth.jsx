@@ -33,7 +33,6 @@ const OAuth = () => {
 
             dispatch(signInSuccess(data));
             navigate("/");
-            
         } catch (error) {
             console.log('Could not sign in with Google', error);
         }
