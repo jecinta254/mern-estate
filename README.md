@@ -84,10 +84,12 @@ For deployment, ensure environment variables are correctly set in your productio
 Frontend: Netlify, Vercel, Render.com
 Backend: Heroku, DigitalOcean, AWS
 
-Contributors;
-Jecinta Munyua
-Amos Shikoli
-Collins Oloo
+Contributors:
+Jecinta Munyua.
+
+Amos Shikoli.
+
+Collins Oloo.
 
 Contributions are welcome! Please follow these steps:
 
